@@ -10,3 +10,5 @@ r = requests.get(file_url)
 with open("sample.war", "wb") as code:
 
     code.write(r.content)
+
+print ("Download complete")
