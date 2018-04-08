@@ -1,0 +1,19 @@
+Current_Reading = 100
+if(Current_Reading >= 500):
+    Bill = Current_Reading*6 + 20
+    print("Bill For The Month = ",Bill)
+elif(Current_Reading>=400):
+    Bill = Current_Reading*5 + 15
+    print("Bill For The Month = ",Bill)
+elif(Current_Reading>=300):
+    Bill = Current_Reading*4 + 10
+    print("Bill For The Month = ", Bill)
+elif(Current_Reading>=200):
+    Bill = Current_Reading*3 + 5
+    print("Bill For The Month = ", Bill)
+elif(Current_Reading >= 100):
+    Bill = Current_Reading*2
+    print("Bill For The Month = ", Bill)
+else:
+    Bill = Current_Reading
+    print("Bill For The Month = ",Bill)
